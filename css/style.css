@@ -151,7 +151,7 @@ padding: 0% 2% ;
     }
 }
 
-@MEDIA only screen and (max-width:320px){
+@MEDIA only screen and (max-width:40px){
     btn-full{
     padding-top:30px; 
 }
