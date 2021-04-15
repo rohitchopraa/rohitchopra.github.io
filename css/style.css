@@ -153,7 +153,33 @@ padding: 0% 2% ;
 
 @MEDIA only screen and (max-width:140px){
     btn-full{
-    padding-top:10rpm; 
+    
+}
+    .btn-nav{
+    margin-left: 10px;
+    background-color: transparent;
+    color: rgba(251, 255, 252, 0.582);
+    margin-right: ;
+    border:1px solid;
+    }
+    .btn-full{
+    background-color: transparent;
+    color: rgba(241, 14, 14, 0.582);
+    margin-right: ;
+    border:1px solid;
+        padding-top:10rpm; 
         margin-top: 300rpm;
 }
-    html{ font-size:50%;}
+   
+    .btn{
+display : inline-block ;
+padding: 2px 7px ;
+font-weight: lighter;
+text-decoration: none;
+text-transform: uppercase;
+border-radius: 200px;
+transition: background-color 0.2s , border 0,2s , color 0,2;
+
+}
+    }
+    
