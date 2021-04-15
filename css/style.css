@@ -37,13 +37,15 @@ clear: both;
 
 }
 .main-nav{
+    font-size: 20px;
     float:right;
     margin-top: 60px ;
+    margin-right: 1px ;
 }
 .main-nav li{
     display: inline-block ;
     list-style: none ;
-    margin-left: 30px;
+    margin-left: 60px;
 }
 .main-nav li a{
     padding: 5px 0px;
@@ -67,7 +69,7 @@ clear: both;
     transform: translate(-50%, -50%);
 }
 h1{
-    font-size: 20px; color: azure;
+    font-size: 230%; color: azure;
     letter-spacing: 2px;
     word-spacing: 5px;
     margin-bottom: 20px;
@@ -132,7 +134,7 @@ padding: 0% 2% ;
     h1{font-size: 200%;}
 }
 
-@MEDIA only screen and (max-width:768px){
+@MEDIA only screen and (max-width:1097px){
     h1{font-size: 180%;}
 
     .main-nav{display: none;}
@@ -142,44 +144,96 @@ padding: 0% 2% ;
         color: white;
         float: right ;
         margin-top: 30px;
-        margin-right: 20px;
+        margin-right: 8px;
+
     }
-.main-nav{float: left;}
+.main-nav{float:left;}
     .main-nav li{
         display: block;
         margin-top: 10px;
+        margin-left: 1px;
+        margin-right: 5px;
     }
 }
 
-@MEDIA only screen and (max-width:140px){
-    btn-full{
-    
+@MEDIA only screen and (max-width:385px){
+    h1{font-size: 180%;}
+
+    .main-nav{display: none;}
+
+    .mobile-icon{
+        display: inline-block;
+        color: white;
+        float: right ;
+        margin-top: 30px;
+        margin-right: 3px;  
+
+    }
+.main-nav{float:left;}
+    .main-nav li{
+        font-size: 18px;
+        display: block;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 1px;
+    }
 }
+
+
+
+@MEDIA only screen and (max-width:432px){
     .btn-nav{
-    margin-left: 10px;
+        margin-left: 0px;
+        margin-top: 8px;
+        background-color: transparent;
+        color: rgba(251, 255, 252, 0.582);
+        margin-right: ;
+        border:1px solid;
+    }
+    }
+
+@MEDIA only screen and (max-width:320px){
+.btn-nav{
+    margin-left: 0px;
+    margin-top: 8px;
     background-color: transparent;
     color: rgba(251, 255, 252, 0.582);
     margin-right: ;
     border:1px solid;
-    }
-    .btn-full{
-    background-color: transparent;
-    color: rgba(241, 14, 14, 0.582);
-    margin-right: ;
-    border:1px solid;
-        padding-top:10rpm; 
-        margin-top: 300rpm;
 }
-   
-    .btn{
-display : inline-block ;
-padding: 20px 70px ;
-font-weight: lighter;
-text-decoration: none;
-text-transform: uppercase;
-border-radius: 200px;
-transition: background-color 0.2s , border 0,2s , color 0,2;
+}
+@MEDIA only screen and (max-width:457px){
+.logo{
+    height: 80px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+    size: 1px; }
+}
 
-}
+@MEDIA only screen and (max-width:1270px){
+    .main-nav{
+        float:right;
+        margin-top: 60px ;
+        margin-right: 50px;
+        font-size: 20px; 
     }
-    
+
+    @MEDIA only screen and (max-width:1117px){
+        .main-nav{
+            float:right;
+            margin-top: 60px ;
+            margin-right: 60px;
+            font-size: 20px; 
+        }
+
+    @MEDIA only screen and (max-width:904px){
+        .main-nav{
+            float:right;
+            margin-top: 60px ;
+            margin-right: 80px;
+            size: 20px;
+        }
+
+
+        
