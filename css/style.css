@@ -96,7 +96,7 @@ transition: background-color 0.2s , border 0,2s , color 0,2;
 }
 
 .btn-nav{
-    margin-left: 20px;
+    margin-left: 40px;
     background-color: transparent;
     color: rgba(251, 255, 252, 0.582);
     margin-right: ;
@@ -151,7 +151,7 @@ padding: 0% 2% ;
     }
 }
 
-@MEDIA only screen and (max-width:480px){
+@MEDIA only screen and (max-width:320px){
     btn-full{
-    margin-TOP:190px;
+    padding-top:30px; 
 }
